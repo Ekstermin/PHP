@@ -55,7 +55,7 @@ if(empty($name)||empty($address)||empty($telephon)||empty($email)||empty($messag
 	exit();
 }
 else{
-echo "dupasssss";
+
 
 
 $adres='biuro@czestnet.pl';

@@ -60,170 +60,25 @@
 			</div>
 		
 			
+			<?php 			
+			try {
+				@require_once "ob1.php";
+			} catch (ErrorException $ex) 
+			{
+				echo "Unable to load configuration file.";
+			}
+			?>
 			
 			
-			
-			
-			
-			<div class="oferta">
-					<br/>
-					<a href="https://telewizjaswiatlowodowa.pl/wybierz-pakiet" class="kanaly" target="_blank">65 Kanałów</a> &nbsp;(35 HD)<br/>
-					<br/>
-						<div class="separator"></div>
-					<span class="TD">Telewizja:</span><span style="font-weight: bold">
-					<a href="https://telewizjaswiatlowodowa.pl/wybierz-pakiet" target="_blank"> Mini</a></span><br/>
-					<span class="TD">Dekoder:</span><span style="font-weight: bold"> ABOX42</span><br/>
-					
-						<div class="separator"></div>
-						<table class="punkty" style="margin-bottom:40px">
-							<tr>
-							<td><a href="http://www.evio.info/nowe-aplikacje-na-dekoderze-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> Multimedia</a>
-							</td></tr>
-							
-							<tr>
-							<td><a href="http://www.evio.info/project/eepg-dosyl-metadanych-epg/" class="kanaly" target="_blank"><i class="icon-check"></i> Epg</a>
-							</td></tr>
-							
-							<tr>
-							<td><a href="http://www.evio.info/epvr-na-dekoderze-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> 
-							ePVR nagrywarka</a>
-							
-							</td></tr>
-							<tr>
-							<td><a href="http://www.evio.info/catchup-tv-na-dekoderach-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> Catch-UP</a></td></tr>
-							<tr>
-							<td>&nbsp;<i class="icon-check"></i> Start-over</td></tr>
-							<tr>
-							<td><a href="http://www.evio.info/project/evod/" class="kanaly" target="_blank"><i class="icon-check"></i> eVOD</a>
-							</td></tr>
-							<tr>
-							<td>&nbsp;<i class="icon-minus"></i>Timeshift</td></tr>
-							<tr>
-							<td><a href="http://www.evio.info/nowa-usluga-evio-ego-twoja-telewizja-zawsze-i-wszedzie/" class="kanaly" target="_blank"><i class="icon-minus"></i> e-GO</a>
-							</td></tr>
-						</table>
-				</div>
-			
-			
-			<div class="oferta">
-			<br/>
-			<a class="kanaly" href="https://telewizjaswiatlowodowa.pl/wybierz-pakiet"  target="_blank">102 Kanały</a> &nbsp;(60 HD)<br/>
-				<br/><div class="separator"></div>
-				<span class="TD">Telewizja:</span><span style="font-weight: bold"><a href="https://telewizjaswiatlowodowa.pl/wybierz-pakiet" target="_blank"> Smart</a></span><br/>
-				<span class="TD">Dekoder:</span><span style="font-weight: bold"> ABOX42</span><br/>
-				<div class="separator"></div>
-					<table class="punkty" style="margin-bottom:40px">
+			<?php
+				oferta(0,1); 
+				oferta(1,1); 
+				oferta(2,1); 
+				oferta(3,1); 
 
-					<tr>
-					<td><a href="http://www.evio.info/nowe-aplikacje-na-dekoderze-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> Multimedia</a>
-					</td></tr>
-					
-					<tr>
-					<td><a href="http://www.evio.info/project/eepg-dosyl-metadanych-epg/" class="kanaly" target="_blank"><i class="icon-check"></i> Epg</a>
-					</td></tr>
-					
-					<tr>
-					<td><a href="http://www.evio.info/epvr-na-dekoderze-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> 
-					ePVR nagrywarka</a>
-					
-					</td></tr>
-					<tr>
-					<td><a href="http://www.evio.info/catchup-tv-na-dekoderach-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> Catch-UP</a></td></tr>
-					<tr>
-					<td>&nbsp;<i class="icon-check"></i> Start-over</td></tr>
-					<tr>
-					<td><a href="http://www.evio.info/project/evod/" class="kanaly" target="_blank"><i class="icon-check"></i> eVOD</a>
-					</td></tr>
-					<tr>
-					<td>&nbsp;<i class="icon-minus"></i>Timeshift</td></tr>
-					<tr>
-					<td><a href="http://www.evio.info/nowa-usluga-evio-ego-twoja-telewizja-zawsze-i-wszedzie/" class="kanaly" target="_blank"><i class="icon-minus"></i> e-GO</a>
-					</td></tr>
-				</table>
+				?>
 			
-			
-			</div>
-			
-			
-			
-			<div class="oferta">
-			<br/>
-			<a class="kanaly" href="https://telewizjaswiatlowodowa.pl/wybierz-pakiet"  target="_blank">154 Kanałów</a> &nbsp;(90 HD)<br/>
-				<br/><div class="separator"></div>
-				<span class="TD">Telewizja:</span><span style="font-weight: bold"><a href="https://telewizjaswiatlowodowa.pl/wybierz-pakiet" target="_blank"> Optimum</a></span><br/>
-				<span class="TD">Dekoder:</span><span style="font-weight: bold"> ABOX42</span><br/>
-				<div class="separator"></div>
-					<table class="punkty" style="margin-bottom:40px">
-
-					<tr>
-					<td><a href="http://www.evio.info/nowe-aplikacje-na-dekoderze-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> Multimedia</a>
-					</td></tr>
-					
-					<tr>
-					<td><a href="http://www.evio.info/project/eepg-dosyl-metadanych-epg/" class="kanaly" target="_blank"><i class="icon-check"></i> Epg</a>
-					</td></tr>
-					
-					<tr>
-					<td><a href="http://www.evio.info/epvr-na-dekoderze-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> 
-					ePVR nagrywarka</a>
-					
-					</td></tr>
-					<tr>
-					<td><a href="http://www.evio.info/catchup-tv-na-dekoderach-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> Catch-UP</a></td></tr>
-					<tr>
-					<td>&nbsp;<i class="icon-check"></i> Start-over</td></tr>
-					<tr>
-					<td><a href="http://www.evio.info/project/evod/" class="kanaly" target="_blank"><i class="icon-check"></i> eVOD</a>
-					</td></tr>
-					<tr>
-					<td>&nbsp;<i class="icon-check"></i>Timeshift</td></tr>
-					<tr>
-					<td><a href="http://www.evio.info/nowa-usluga-evio-ego-twoja-telewizja-zawsze-i-wszedzie/" class="kanaly" target="_blank"><i class="icon-check"></i> e-GO</a>
-					</td></tr>
-				</table>
-			
-			
-			</div>
-			
-			
-			<div class="oferta">
-			<br/>
-			<a class="kanaly" href="https://telewizjaswiatlowodowa.pl/wybierz-pakiet"  target="_blank">179 Kanałów</a> (104 HD)<br/>
-				<br/><div class="separator"></div>
-				<span class="TD">Telewizja:</span><span style="font-weight: bold"><a href="https://telewizjaswiatlowodowa.pl/wybierz-pakiet" target="_blank"> Platinum</a></span><br/>
-				<span class="TD">Dekoder:</span><span style="font-weight: bold"> ABOX42</span><br/>
-				<div class="separator"></div>
-					<table class="punkty" style="margin-bottom:40px">
-					<tr>
-					<td><a href="http://www.evio.info/nowe-aplikacje-na-dekoderze-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> Multimedia</a>
-					</td></tr>
-					
-					<tr>
-					<td><a href="http://www.evio.info/project/eepg-dosyl-metadanych-epg/" class="kanaly" target="_blank"><i class="icon-check"></i> Epg</a>
-					</td></tr>
-					
-					<tr>
-					<td><a href="http://www.evio.info/epvr-na-dekoderze-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> 
-					ePVR nagrywarka</a>
-					
-					</td></tr>
-					<tr>
-					<td><a href="http://www.evio.info/catchup-tv-na-dekoderach-ebox-m15/" class="kanaly" target="_blank"><i class="icon-check"></i> Catch-UP</a></td></tr>
-					<tr>
-					<td>&nbsp;<i class="icon-check"></i> Start-over</td></tr>
-					<tr>
-					<td><a href="http://www.evio.info/project/evod/" class="kanaly" target="_blank"><i class="icon-check"></i> eVOD</a>
-					</td></tr>
-					<tr>
-					<td>&nbsp;<i class="icon-check"></i>Timeshift</td></tr>
-					<tr>
-					<td><a href="http://www.evio.info/nowa-usluga-evio-ego-twoja-telewizja-zawsze-i-wszedzie/" class="kanaly" target="_blank"><i class="icon-check"></i> e-GO</a>
-					</td></tr>
-				</table>
-			
-			
-			</div>
-			
+	
 			
 			
 			
@@ -252,32 +107,14 @@
 			?>
 
 	
-		<script>
-
-		$(document).ready(function() {
-		<!--var NavY = $('#nav2').offset().top;-->
-		var NavY = $('#navi').offset().top;
-		 
-		var stickyNav = function(){
-		var ScrollY = $(window).scrollTop();
-			  
-		if (ScrollY > NavY) { 
-		<!--	$('#nav2').addClass('sticky2');-->
-			$('#navi').addClass('sticky2');
-		} else {
-		<!--	$('#nav2').removeClass('sticky2'); -->
-			$('#navi').removeClass('sticky2'); 
-		}
-		};
-		 
-		stickyNav();
-		 
-		$(window).scroll(function() {
-			stickyNav();
-		});
-		});
-		
-		</script>
+<?php 			
+			try {
+				@require_once "szablon/skrypt.php";
+			} catch (ErrorException $ex) 
+			{
+				echo "Unable to load configuration file.";
+			}
+			?>
 		
 		
 

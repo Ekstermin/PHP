@@ -1,10 +1,11 @@
+<?php require_once "linki.php";?>
 <div id="navi2">
-	<div id="nav2">
+	<div class="nav2">
 		<ol>
-			<li><a href="http://www.czestnet.pl/" target="_blank">Zasięg</a></li>
+			<?php /*<li><a href="http://www.czestnet.pl/" target="_blank">Zasięg</a></li>
 			<li><a href="http://www.czestnet.pl/">Dla Ciebie</a></li>
-			<li><a href="http://www.czestnet.pl/">Dla Biznesu</a></li>
-			<li><a href="kontakt/formularz.php">Kontakt</a></li>
+			<li><a href="http://www.czestnet.pl/">Dla Biznesu</a></li>*/?>
+			<li><a href="<?php echo $main?>kontakt/kontakt.php">Kontakt</a></li>
 		</ol>
 	</div>
 </div>

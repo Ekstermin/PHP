@@ -66,141 +66,21 @@
 				</div>
 				
 				
-					<div class="oferta">
-						<br/>
-							
-								
-							<span class="kanaly"  style="text-align:center; margin-left:60px;">20 Mb/s</span>
-							</br></br>
-							<div class="pakiet" style="text-align:center;margin-left:60px;">
-								<div id="p30"></div>
-							</div>
-							</br>
-							<div class="separator" ></div></br>
-								<span class="TD"  style="text-align:center; margin-left:60px;">
-							Aktywacja 19 zł</span>
-							</br></br>
-							<div class="separator" ></div>
-							</br>
-							<div class="cena" ><span  style="text-align:center;">1 zł</span></div>
-									
-							<div class="cena" ><input type="button" value="zamów" style="font-size:20px;background:#00a500"/></div>	
-</br>
-							<div class="separator" ></div>
-							</br>
-							
-							</br>
-							<div class="TD" ><span  style="text-align:center;">Router WiFi 2,90 zł / mies.</span>
-							</br></br>
-							<div class="TD" ><span  style="text-align:center;"><a href="#">O ruterze >></a>
-							</span></div>
-							</br>
-					</div>
+			<?php 	
+						
+						try {
+							require_once "internet.php";
+						} catch (ErrorException $ex) 
+						{
+							echo "Unable to load configuration file.";
+						}
 				
+						internet(0); 
+						 
+
+						?>
 				
-				</div>
-			
-			<div class="oferta">
-						<br/>
-							
-								
-							<span class="kanaly"  style="text-align:center; margin-left:60px;">20 Mb/s</span>
-							</br></br>
-							<div class="pakiet" style="text-align:center;margin-left:60px;">
-								<div id="p45"></div>
-							</div>
-							</br>
-							<div class="separator" ></div></br>
-								<span class="TD"  style="text-align:center; margin-left:60px;">
-							Aktywacja 19 zł</span>
-							</br></br>
-							<div class="separator" ></div>
-							</br>
-							<div class="cena" ><span  style="text-align:center;">1 zł</span></div>
-									
-							<div class="cena" ><input type="button" value="zamów" style="font-size:20px;background:#00a500"/></div>	
-</br>
-							<div class="separator" ></div>
-							</br>
-							
-							</br>
-							<div class="TD" ><span  style="text-align:center;">Router WiFi 2,90 zł / mies.</span>
-							</br></br>
-							<div class="TD" ><span  style="text-align:center;"><a href="#">O ruterze >></a>
-							</span></div>
-							</br>
-					</div>
-				
-				
-				</div>
-				<div class="oferta">
-						<br/>
-							
-								
-							<span class="kanaly"  style="text-align:center; margin-left:60px;">20 Mb/s</span>
-							</br></br>
-							<div class="pakiet" style="text-align:center;margin-left:60px;">
-								<div id="p60"></div>
-							</div>
-							</br>
-							<div class="separator" ></div></br>
-								<span class="TD"  style="text-align:center; margin-left:60px;">
-							Aktywacja 19 zł</span>
-							</br></br>
-							<div class="separator" ></div>
-							</br>
-							<div class="cena" ><span  style="text-align:center;">1 zł</span></div>
-								
-							<div class="cena" ><input type="button" value="zamów" style="font-size:20px;background:#00a500"/></div>	
-</br>
-							<div class="separator" ></div>
-							</br>
-							
-							</br>
-							<div class="TD" ><span  style="text-align:center;">Router WiFi 2,90 zł / mies.</span>
-							</br></br>
-							<div class="TD" ><span  style="text-align:center;"><a href="#">O ruterze >></a>
-							</span></div>
-							</br>
-					</div>
-				
-				
-				</div>
-				
-				<div class="oferta">
-						<br/>
-							
-								
-							<span class="kanaly"  style="text-align:center; margin-left:60px;">20 Mb/s</span>
-							</br></br>
-							<div class="pakiet" style="text-align:center;margin-left:60px;">
-								<div id="p90"></div>
-							</div>
-							</br>
-							<div class="separator" ></div></br>
-								<span class="TD"  style="text-align:center; margin-left:60px;">
-							Aktywacja 19 zł</span>
-							</br></br>
-							<div class="separator" ></div>
-							</br>
-							<div class="cena" ><span  style="text-align:center;">1 zł</span></div>
-								
-							<div class="cena" ><input type="button" value="zamów" style="font-size:20px;background:#00a500"/></div>	
-</br>
-							<div class="separator" ></div>
-							</br>
-							
-							</br>
-							<div class="TD" ><span  style="text-align:center;">Router WiFi 2,90 zł / mies.</span>
-							</br></br>
-							<div class="TD" ><span  style="text-align:center;"><a href="#">O ruterze >></a>
-							</span></div>
-							</br>
-					</div>
-				
-				
-				</div>
-				<div style="clear: both;"></div>
+<div style="clear: both;"></div>
 				</div>
 				
 				
@@ -229,32 +109,14 @@
 	
 
 	
-<script>
-
-	$(document).ready(function() {
-	<!--var NavY = $('#nav2').offset().top;-->
-	var NavY = $('#navi').offset().top;
-	
-	var stickyNav = function(){
-	var ScrollY = $(window).scrollTop();
-		  
-	if (ScrollY > NavY) { 
-	<!--	$('#nav2').addClass('sticky2');-->
-		$('#navi').addClass('sticky2');
-	} else {
-	<!--	$('#nav2').removeClass('sticky2'); -->
-		$('#navi').removeClass('sticky2'); 
-	}
-	};
-	 
-	stickyNav();
-	 
-	$(window).scroll(function() {
-		stickyNav();
-	});
-	});
-		
-		</script>
+<?php 			
+			try {
+				@require_once "szablon/skrypt.php";
+			} catch (ErrorException $ex) 
+			{
+				echo "Unable to load configuration file.";
+			}
+			?>
 		
 		
 
