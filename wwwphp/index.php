@@ -52,17 +52,9 @@
 			
 			
 			<div id="text">
-				
-				
 		
-				
-				
-				
-				
-				
-				
-				
-				
+			
+		
 			</div>	
 			
 			
@@ -85,32 +77,14 @@
 		
 
 	
-<script>
-
-	$(document).ready(function() {
-	<!--var NavY = $('#nav2').offset().top;-->
-	var NavY = $('#navi').offset().top;
-	 
-	var stickyNav = function(){
-	var ScrollY = $(window).scrollTop();
-		  
-	if (ScrollY > NavY) { 
-	<!--	$('#nav2').addClass('sticky2');-->
-		$('#navi').addClass('sticky2');
-	} else {
-	<!--	$('#nav2').removeClass('sticky2'); -->
-		$('#navi').removeClass('sticky2'); 
-	}
-	};
-	 
-	stickyNav();
-	 
-	$(window).scroll(function() {
-		stickyNav();
-	});
-	});
-		
-		</script>
+			<?php 			
+			try {
+				@require_once "szablon/skrypt.php";
+			} catch (ErrorException $ex) 
+			{
+				echo "Unable to load configuration file.";
+			}
+			?>
 		
 		
 
