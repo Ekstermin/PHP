@@ -1,19 +1,19 @@
 <?php session_start(); 
-$Oddzial="Oddział Wrocław";
+$Oddzial="Oddział cz";
 $biuro="Biuro Obsługi Klienta";
-$ulica="Nabycińska";
-$kod="53-677";
-$numer="19";
-$miejscowosc="Wrocław";
+$ulica="polna";
+$kod="53-535";
+$numer="113";
+$miejscowosc="Miasto";
 $godziny="Pn. – Pt.: 08:00 – 18:00";
-$telefon="Tel. 71 712 77 77";
+$telefon="Tel. 777 777 777";
 
 $Oddzial2="Sms alarmowy";
-$telefon2="Tel. +48 605 997 277";
-$notka="UWAGA! Nie rejestrujemy adresów MAC, korzystając z tego numeru.";
-$godz="Pn. – Pt.: 18:00 – 20:00";
+$telefon2="Tel. +48 666 666 6667";
+$notka="krótki opis.";
+$godz="Pn. – Pt.: 01:00 – 20:00";
 $godz2="So. – Niedz.: 10:00 – 20:00";
-$notka2="W treści wiadomości prosimy wpisać: Imię, adres zamieszkania, rodzaj problemu. Po analizie oddzwonimy do Państwa.";
+$notka2="Co tam podać";
 
 
 
