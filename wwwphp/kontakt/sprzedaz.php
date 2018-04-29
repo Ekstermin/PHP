@@ -121,11 +121,19 @@
 							?>"	
 							name="email" placeholder="Np. mail@wp.pl" /><br/><br/>
 							Wiadomość:<br/><textarea style="resize:none" 
-							name="message" rows="10" cols="40" placeholder="Proszę wprowadzić wiadomość."><?php 	if(isset($_SESSION['fr_message']))
-						{
-							echo $_SESSION['fr_message'];
-							unset($_SESSION['fr_message']);							
-						}
+							name="message" rows="10" cols="40" placeholder="Proszę wprowadzić wiadomość.">
+							<?php 	
+							
+							if(isset($_SESSION['fr_message'])) 
+							{
+								echo $_SESSION['fr_message'];
+								unset($_SESSION['fr_message']);							
+							}
+							if(isset($_POST['zamow'])) 
+							{
+								echo $_POST['zamow'];
+								unset($_POST['zamow']);							
+							}
 						?></textarea><br/>
 							
 							

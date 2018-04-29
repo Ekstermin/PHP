@@ -59,7 +59,7 @@
 .icon-mail:before { content: '\e801'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
-.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-menu:before { content: '\f0c9'; font-size:32px; } /* '' */
 .icon-gplus:before { content: '\f0d5'; } /* '' */
 .icon-chat-empty:before { content: '\f0e6'; } /* '' */
 .icon-laptop:before { content: '\f109'; } /* '' */

@@ -3,6 +3,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 session_start();
 $test = $_POST['test'];
+
 echo $test."<br/><br/><br/>";
 switch($test)
 	{

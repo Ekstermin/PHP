@@ -2,6 +2,10 @@
 
 # Jeżeli w liki jest '0' nie jest wstawiany link
 #!!!!!! ELEMENTÓW W $USŁUGI I $LINKI MA BYĆ TYLE SAMO
+if(!isset($_SESSION))
+{
+	session_start();
+}
 function tab($numer_pliku)
 {
 	switch($numer_pliku)
@@ -183,7 +187,31 @@ function oferta($numer_oferty, $numer_pliku)
 								<div class="separator" ></div>
 								</br>
 								<div class="cena" ><span  style="text-align:center;">'.$t2[2].'</span></div>
-								<div class="cena" ><input type="button" value="zamów" style="font-size:20px;background:#00a500"/></div></br>	
+								<form action="../kontakt/sprzedaz.php" method="post" enctype="multipart/form-data">';
+							switch($numer_pliku)
+						{
+							case 0:
+							{
+								$_SESSION['zamow']= "Oferta bez zobowiązań\nPakiet: ";
+								break;
+							}
+							case 1:
+							{
+								$_SESSION['zamow']= "Oferta na 12 miesięcy\nPakiet: ";
+								break;
+							}
+							case 2:
+							{
+								$_SESSION['zamow']= "Oferta na 24 miesiące\nPakiet: ";
+								break;
+							}
+						}
+						$_SESSION['zamow']=$_SESSION['zamow'].$t[$numer_oferty][0][2]."\nKanałów: ".$t[$numer_oferty][0][0]. "\nPrędkość internetu: ". $t2[0];
+								
+							
+							echo '<input type="hidden" name="zamow" value="'.$_SESSION['zamow'].'" />
+							<div class="cena" ><input type="submit" value="zamów" style="font-size:20px;background:#00a500; padding: 10px 12px;"/></div>
+							</br></form>	
 								<div class="separator" ></div></br>
 								<span class="TD"  style="text-align:center; margin-left:60px;">Aktywacja '.$t2[3].'</span>
 								</br>
